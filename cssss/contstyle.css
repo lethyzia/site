@@ -1,0 +1,87 @@
+/* CONTATO */
+
+.bodyCont{ 
+  background-color: black;
+   /* background-image: url(images/fundoCont.jpg); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Candara, Helvetica, sans-serif;
+  color: white;
+}
+
+.contato {
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+
+
+
+}
+
+
+.modelo-email {
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #001900;
+  color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+.modelo-email h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.modelo-email p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.modelo-email span {
+  font-weight: bold;
+}
+
+.cliente {
+  display: inline-block;
+  width: 300px;
+}
+
+.assunto {
+  display: inline-block;
+  width: 300px;
+}
+
+.problema {
+  display: inline-block;
+  width: 600px;
+}
+
+.marca {
+  display: inline-block;
+  width: 300px;
+}
+
+.marcas {
+  width: 100%;
+  height: auto;
+  margin-top: 300px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#landPic{
+  height: 50px;
+  width: auto;
+}
+
+#jaguarPic{
+  height: 80px;
+  width: auto;
+}
+

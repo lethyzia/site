@@ -1,0 +1,191 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  padding: 10px 50px 50px 50px;
+  font-family: Candara, Helvetica, sans-serif;
+  color: white;
+}
+
+
+/* HEADER */
+#logo{
+  display: flex;
+  justify-content:center;
+  padding: 10px;
+}
+
+
+#logoimg{
+  display: flex;
+  justify-content:center;
+  margin-right: 10px;
+  pointer-events: none;
+  user-select: none;
+  width: 200px;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  background-color:#07732e;
+  /*deslocamento de x e de y | desfoque | espalhamento da sombra | cor da sombra*/
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+
+}
+
+.menu a{
+  padding: 14px;
+  text-decoration: none;
+  color: white;
+  transition: background-color, .5s ;
+  
+}
+
+.menu a:hover{
+  background-color: white;
+  color: #AF7F1F;
+  transition: background-color, .5s ;
+}
+
+/* AREA ESQUERDA */
+
+.conteudoPrin{
+  height: 520px;
+  width: 935px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.navegacao{
+  position: absolute;
+  bottom: 20px;
+  left: 20%;
+  display: flex;
+}
+
+.barra{
+  width: 80px;
+  height: 25px;
+  border: 2px solid white;
+  margin: 5px;
+  margin-left: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .6s;
+  color: white
+}
+
+.barra:hover{
+  background-color: white;
+  color: grey;
+}
+
+input{
+  display: none;
+}
+/* deixa o input invisivel*/
+
+.slides{
+  display:flex;
+  width: 500%;
+  height:100%;
+}
+
+.slide{
+  width: 20%;
+  transition: .6s;
+}
+
+.slide img{
+  width: 100%;
+  height:100%;
+}
+
+#slide:checked ~ .sld1{
+  margin-left:0;
+}
+
+#slide2:checked ~ .sld1{
+  margin-left: -20%
+}
+
+#slide3:checked ~ .sld1{
+  margin-left: -40%
+}
+
+#slide4:checked ~ .sld1{
+  margin-left: -60%
+}
+
+#slide5:checked ~ .sld1{
+  margin-left: -80%
+}
+
+
+.esquerda{
+  width: 75%;
+  float: left;
+} 
+
+
+/* IMAGENS MARCA */
+
+#landPic{
+  height: 50px;
+  width: auto;
+}
+
+#jaguarPic{
+  height: 80px;
+  width: auto;
+}
+
+  
+.baixo {
+  width: 100%;
+  height: auto;
+  margin-top: 700px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.land, .jaguar {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.land img, .jaguar img {
+  float: left;
+  margin-right: 10px;
+  opacity: .5;
+  transition: opacity .5s;
+}
+
+.baixo img:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+  

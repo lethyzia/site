@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAGautocar</title>
+  <link href="/cssss/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <!--isso é o cabeçalho -->
+    <div id="logo">
+      <!-- <h1>M.A.G</h1> -->
+      <img id="logoimg" src="images/logoverdet.png">
+    </div>
+    <nav class="menu">
+      <a href="index.html">Início</a>
+      <a href="/pages/sobre.html">Sobre Nós</a>
+      <a href="/pages/contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- essa é a parte princiapl -->
+
+    <div class="conteudoPrin">
+      <div class="slides">
+        <input id="slide1" type="radio" name="radio" checked> <!-- checked é para a primeira imagem ficar marcada-->
+        <input id="slide2" type="radio" name="radio"> <!-- name é para para saber que são do mesmo tipo-->
+        <input id="slide3" type="radio" name="radio">
+        <input id="slide4" type="radio" name="radio">
+        <input id="slide5" type="radio" name="radio">
+
+        <div class="slide sld1">
+          <img src="./images/lrdiscovery.jpg">
+        </div>
+        <div class="slide">
+          <img src="./images/jagftype.webp">
+        </div>
+        <div class="slide">
+          <img src="./images/jagxf.webp">
+        </div>
+        <div class="slide">
+          <img src="./images/jagfpace.jpg">
+        </div>
+        <div class="slide">
+          <img src="./images/lrevoq.webp">
+        </div>
+      </div>
+
+      <div class="navegacao">
+        <label class="barra" for="slide1"> Discovery </label>
+        <label class="barra" for="slide2"> F-Type </label>
+        <label class="barra" for="slide3"> XF </label>
+        <label class="barra" for="slide4"> F-Pace </label>
+        <label class="barra" for="slide5"> Evoque </label>
+        <!-- cada label serve para escolher uma imagem-->
+      </div>
+    </div>
+
+
+    <div class="baixo">
+      <h2> Marcas Trabalhadas </h2>
+      <div class="land">
+        <img id="landPic" src="images/landlogo.png">
+      </div>
+      <div class="jaguar">
+        <img id="jaguarPic" src="images/jaguarlogo.png">
+      </div>
+    </div>
+  </main>
+
+
+</body>
+
+
+</html>
